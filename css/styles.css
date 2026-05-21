@@ -1,1 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #5900ff, #7fbaeb, #33c2cc, #33e7ff, #c76fe4);
+  margin: 0;
+  padding: 20px;
+}
 
+.demo-form-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 25px;         /* más compacto */
+  max-width: 400px;      /* tarjeta más pequeña */
+  margin: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.demo-form-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #4ca3af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a091;
+}
+
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e9f5e9;
+  border: 1px solid #b2d8b2;
+  border-radius: 4px;
+  color: #333;
+}
